@@ -1,0 +1,24 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  z-index: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-justify : inner-word;
+}
+.shore{
+  margin-top: 10%;
+  margin-left: -2%;
+  max-width: 110%;
+}
+#canvas{
+  margin-top: -15%;
+  max-width: 110%;
+}
+.water{
+  max-width: 110%;
+}
+@media(max-width: 768px){
+	.shore{
+		margin-left: -3%;
+	}
+}
