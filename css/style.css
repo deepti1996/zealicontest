@@ -58,12 +58,21 @@
     bottom: 45%;
   }
 }
-@media(min-width: 500px) and (max-width: 768px){
+@media(min-width: 375px) and (max-width: 667px){
   .zealicon{
     bottom: 36%;
     width: 45%;
   }
   .sun{
     bottom: 40%;
+  }
+}
+@media(min-width: 287px) and (max-width: 575px){
+  .zealicon{
+    bottom: 48%;
+    width: 45%;
+  }
+  .sun{
+    bottom: 55%;
   }
 }
