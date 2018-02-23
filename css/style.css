@@ -60,7 +60,8 @@
 }
 @media(min-width: 500px){
   .zealicon{
-    bottom: 48%;
+    bottom: 45%;
+    width: 45%;
   }
   .sun{
     bottom: 55%;
