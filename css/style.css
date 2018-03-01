@@ -29,7 +29,7 @@
 }
 .zealiconhover {
 	transform:  translateX(-50%) scale(1.2);
-	bottom: 42%;
+	bottom: 50%;
 }
 .sun {
 	width: 8%;
@@ -52,27 +52,9 @@
     margin-top: 4%;
   }
   .zealicon{
-    bottom: 38%;
+    bottom: 48%;
   }
   .sun{
     bottom: 45%;
-  }
-}
-@media(min-width: 375px) and (max-width: 667px){
-  .zealicon{
-    bottom: 36%;
-    width: 45%;
-  }
-  .sun{
-    bottom: 40%;
-  }
-}
-@media(min-width: 287px) and (max-width: 575px){
-  .zealicon{
-    bottom: 55%;
-    width: 45%;
-  }
-  .sun{
-    bottom: 50%;
   }
 }
