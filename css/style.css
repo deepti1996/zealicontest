@@ -5,13 +5,16 @@
   overflow-y: hidden;
   text-justify : inner-word;
 }
+#home{
+  background: linear-gradient(rgba(82,201,251,1),rgba(122,213,252,0.1),rgba(255,0,0,0));
+}
 .shore{
   margin-top: 10%;
   margin-left: -2%;
   max-width: 110%;
 }
 #canvas{
-  margin-top: -15%;
+  margin-top: -10%;
   max-width: 110%;
 }
 .water{
@@ -19,7 +22,7 @@
 }
 .zealicon {
 	position: absolute;
-	bottom: 20%;
+	bottom: 18%;
 	width: 50%;
 	height: auto;
 	transition:bottom 2s, transform 2s;
@@ -34,7 +37,7 @@
 .sun {
 	width: 8%;
 	position: absolute;
-	bottom: 30%;
+	bottom: 28%;
 	left: 20%;
 	z-index: -1;
 	transition: transform 2s, left 2s, bottom 2s;
