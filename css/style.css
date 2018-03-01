@@ -197,6 +197,33 @@
     top: 65%;
   }
 }
+@media(max-width: 500px){
+  #canvas{
+    margin-top: 5%;
+  }
+  .zealicon{
+    bottom: 45%;
+    width: 42%;
+  }
+  .sun{
+    bottom: 50%;
+  }
+  .cloud1{
+    width: 90px;
+  }
+  .cloud4{
+    height: 50px;
+  }
+  .cloud3{
+    width: 75px;
+  }
+  .cloud5{
+    width: 50px;
+  }
+  .cloud2{
+    height: 60px;
+  }
+}
 @media(min-width: 1200px){
   .shore{
     width: 110%;
