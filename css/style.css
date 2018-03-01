@@ -80,6 +80,17 @@
 	animation: cloud-move2 50s linear infinite;
 	animation-direction: normal;
 }
+.birds {
+	position: absolute;
+	z-index: 999;
+	width: 13%;
+  	animation-name: birds-anim;
+  	animation-duration: 50s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: ease-in-out;
+  	animation-direction: normal;
+}
+/*keyframes*/
 @keyframes cloud-move1 {
 	from {
 		right: -400px;
@@ -138,6 +149,21 @@
 		right: 80vw;
 	}
 }
+@keyframes birds-anim {
+	0% {
+		left: 20%;
+		top: 35%;
+	}
+	50% {
+		left: 5%;
+		top: -5%;
+	}
+	100% {
+		left: 20%;
+		top: 35%;
+	}
+}
+/*media queries*/
 @media(max-width: 768px){
 	.shore{
 		margin-left: -3%;
@@ -154,15 +180,12 @@
   }
   .cloud1{
     width: 100px;
-    height: 75px;
   }
   .cloud3{
     width: 75px;
-    height: 50px;
   }
   .cloud5{
     width: 50px;
-    height: 30px;
   }
 }
 @media(min-width: 1200px){
