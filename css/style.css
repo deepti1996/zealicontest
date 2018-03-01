@@ -138,7 +138,6 @@
 		right: 80vw;
 	}
 }
-
 @media(max-width: 768px){
 	.shore{
 		margin-left: -3%;
@@ -152,5 +151,19 @@
   }
   .sun{
     bottom: 50%;
+  }
+  .cloud1{
+    width: 100px;
+  }
+  .cloud3{
+    width: 75px;
+  }
+  .cloud5{
+    width: 50px;
+  }
+}
+@media(min-width: 1440px){
+  .shore{
+    width: 110%;
   }
 }
