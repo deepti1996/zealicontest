@@ -364,18 +364,6 @@
     transform: translate(0);
 }
 
-.btn-black {
-    position: absolute;
-    bottom: 50px;
-    transform: translateX(-50%);
-    background: #222;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
 .modal-dialog {
     position: fixed;
     margin: 0;
@@ -730,7 +718,7 @@
     bottom: 14%;
   }
   .pikachu{
-    bottom:404%;
+    bottom:40%;
   }
   .pikachu_left{
     bottom: 40%;
