@@ -7,8 +7,13 @@ $(document).ready(function(){
     }
     else{
 		$('body').height(window.innerHeight);
-	    $('body').show();
-          	$(".view, .island, .grass1, .grass2").mouseover(function(){
+		$('body').show();
+		$(window).on('load',function() {
+    		setTimeout(function(){
+    			$(".vidloader").fadeOut();
+			},3000);
+		});
+        $(".view, .island, .grass1, .grass2").mouseover(function(){
           	// $("#my_audio")[0].play();
 			$('.shore, .water, .bird, .bird_left, .pikachu, .pikachu_left .castle, .chipmunk, .tape, .leftplant').addClass("islandHover");
 			$('.zealicon').addClass('zealiconhover');
