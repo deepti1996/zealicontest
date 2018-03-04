@@ -327,54 +327,6 @@
   left: -110%;
   transform: scale(1.2);
 }
-.modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-.modal-content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-.modal.fade {
-    opacity: 1;
-}
-
-.modal.fade .modal-dialog {
-    -webkit-transform: translate(0);
-    -moz-transform: translate(0);
-    transform: translate(0);
-}
-
-.btn-black {
-    position: absolute;
-    bottom: 50px;
-    transform: translateX(-50%);
-    background: #222;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.modal-dialog {
-    position: fixed;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
 
 /*keyframes*/
 @keyframes cloud-move1 {
@@ -697,41 +649,41 @@
     width: 110%;
   }
   .castle{
-    bottom: 30%;
+    bottom: 25%;
   }
   .shinchan{
     bottom: 20%;
   }
   .tape{
     bottom: 23%;
-    left: 10%;
+    left: 8%;
   }
   .sun{
     bottom: 25%;
   }
   .navbg{
-    top: -20%;
+    top: -18%;
   }
   .zealicon{
-    bottom: 20%;
+    bottom: 15%;
   }
   .winnie{
     bottom: 23%
   }
   .chipmunk{
-    bottom: 14%;
+    bottom: 12%;
   }
   .pikachu{
-    bottom:43%;
+    bottom:35%;
   }
   .pikachu_left{
-    bottom: 43%;
+    bottom: 35%;
   }
   .bird{
-    bottom: 48%;
+    bottom: 40%;
   }
   .bird_left{
-    bottom: 48%;
+    bottom: 40%;
   }
   .starfish{
     bottom: 20%;
@@ -748,20 +700,20 @@
     bottom: 20%;
   }
   .tape{
-    bottom: 25%;
+    bottom: 28%;
     left: 8%;
   }
   .sun{
-    bottom: 20%;
+    bottom: 25%;
   }
   .navbg{
     top: -20%;
   }
   .zealicon{
-    bottom: 15%;
+    bottom: 18%;
   }
   .winnie{
-    bottom: 23%
+    bottom: 25%
   }
   .chipmunk{
     bottom: 14%;
@@ -805,44 +757,44 @@
     margin-top: -14%;
   }
   .castle{
-    bottom: 25%;
+    bottom: 23%;
   }
   .shinchan{
-    bottom: 15%;
+    bottom: 13%;
   }
   .tape{
     bottom: 20%;
-    left: 10%;
+    left: 8%;
   }
   .sun{
     bottom: 20%;
   }
   .navbg{
-    top: -20%;
+    top: -18%;
   }
   .zealicon{
     bottom: 12%;
   }
   .winnie{
-    bottom: 20%
+    bottom: 18%
   }
   .chipmunk{
-    bottom: 9%;
+    bottom: 8%;
   }
   .pikachu{
-    bottom:33%;
+    bottom:30%;
   }
   .pikachu_left{
-    bottom: 33%;
+    bottom: 30%;
   }
   .bird{
-    bottom: 39%;
+    bottom: 35%;
   }
   .bird_left{
-    bottom: 39%;
+    bottom: 35%;
   }
   .starfish{
-    bottom: 20%;
+    bottom: 18%;
   }
   .cloud1{
     top: 130px;
