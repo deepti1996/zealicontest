@@ -10,10 +10,8 @@ $(document).ready(function(){
 	    $('body').show();
           	$(".view, .island, .grass1, .grass2").mouseover(function(){
           	// $("#my_audio")[0].play();
-			$('.shore, .water, .bird, .bird_left, .pikachu, .pikachu_left .castle, .chipmunk, .tape, .leftplant').addClass("islandHover");
+			/** $('.shore, .water, .bird, .bird_left, .pikachu, .pikachu_left .castle, .chipmunk, .tape, .leftplant').addClass("islandHover");
 			$('.zealicon').addClass('zealiconhover');
-			$('.grass1').addClass("grass1Hover");
-			$('.grass2').addClass("grass2Hover");
 			$('.grass3').addClass("grass3Hover");
 			$('.castle').addClass("castlehover");
 			$('.chipmunk').addClass("chipmunkhover");
@@ -22,14 +20,14 @@ $(document).ready(function(){
 			$('.bottle').addClass("bottlehover");
 			$('.boat').addClass("boathover");
 			$('.sun').addClass("sunhover");
-			$('.winnie').addClass("winniehover");
+			$('.winnie').addClass("winniehover"); **/
+			$('.grass1').addClass("grass1Hover");
+			$('.grass2').addClass("grass2Hover");
 		});
 		$(document).keydown(function(e){
 			if(e.keyCode==38){
-				$('.shore, .water, .bird, .pikachu, .chipmunk, .tape, .leftplant, .baloon, .lamp, .starfish').addClass("islandHover");
+				/**$('.shore, .water, .bird, .pikachu, .chipmunk, .tape, .leftplant, .baloon, .lamp, .starfish').addClass("islandHover");
 				$('.zealicon').addClass('zealiconhover');
-				$('.grass1').addClass("grass1Hover");
-				$('.grass2').addClass("grass2Hover");
 				$('.grass3').addClass("grass3Hover");
 				$('.castle').addClass("castlehover");
 				$('.chipmunk').addClass("chipmunkhover");
@@ -38,13 +36,13 @@ $(document).ready(function(){
 				$('.bottle').addClass("bottlehover");
 				$('.boat').addClass("boathover");
 				$('.sun').addClass("sunhover");
-				$('.winnie').addClass("winniehover");
+				$('.winnie').addClass("winniehover");**/
+				$('.grass1').addClass("grass1Hover");
+				$('.grass2').addClass("grass2Hover");
 			}
 			else if(e.keyCode==40){
-				$('.shore, .water, .bird, .pikachu, .castle, .chipmunk, .tape, .leftplant, .baloon, .lamp, .starfish').removeClass("islandHover");
+				/**$('.shore, .water, .bird, .pikachu, .castle, .chipmunk, .tape, .leftplant, .baloon, .lamp, .starfish').removeClass("islandHover");
 				$('.zealicon').removeClass('zealiconhover');
-				$('.grass1').removeClass("grass1Hover");
-				$('.grass2').removeClass("grass2Hover");
 				$('.grass3').removeClass("grass3Hover");
 				$('.castle').removeClass("castlehover");
 				$('.chipmunk').removeClass("chipmunkhover");
@@ -53,7 +51,9 @@ $(document).ready(function(){
 				$('.bottle').removeClass("bottlehover");
 				$('.boat').removeClass("boathover");
 				$('.sun').removeClass("sunhover");
-				$('.winnie').removeClass("winniehover");
+				$('.winnie').removeClass("winniehover");**/
+				$('.grass1').removeClass("grass1Hover");
+				$('.grass2').removeClass("grass2Hover");
 			}
 			else if(e.keyCode==9){
 				return false;
