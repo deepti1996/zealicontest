@@ -62,7 +62,7 @@
 .zealicon {
 	position: absolute;
 	bottom: 20%;
-	width: 50%;
+	width: 48%;
 	height: auto;
 	transition:bottom 2s, transform 2s;
 	z-index: 2;
@@ -76,7 +76,7 @@
 /*island*/
 
 .sun {
-	width: 8%;
+	width: 9%;
 	position: absolute;
 	bottom: 28%;
 	left: 20%;
@@ -121,6 +121,23 @@
 	position: absolute;
 	animation: cloud-move2 50s linear infinite;
 	animation-direction: normal;
+}
+.vidloader {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgb(247,247,249);
+  z-index: 1000000;
+}
+.gif {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .birds {
 	position: absolute;
@@ -227,7 +244,7 @@
 }
 .tape {
 	padding: 1%;
-	width: 8%;
+	width: 7.5%;
 	z-index: 1000;
 	position: absolute;
 	bottom: 30%;
@@ -362,18 +379,6 @@
     -webkit-transform: translate(0);
     -moz-transform: translate(0);
     transform: translate(0);
-}
-
-.btn-black {
-    position: absolute;
-    bottom: 50px;
-    transform: translateX(-50%);
-    background: #222;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 .modal-dialog {
@@ -614,20 +619,20 @@
     top: 65%;
   }
   .shinchan{
-    bottom: 40%;
+    bottom: 42%;
   }
   .tape{
-    bottom: 40%;
-    left: 10%;
+    bottom: 42%;
+    left: 9%;
   }
   .castle{
-    bottom: 44%;
+    bottom: 47%;
   }
   .winnie{
-    bottom: 40%;
+    bottom: 42%;
   }
   .chipmunk{
-    bottom: 33%;
+    bottom: 35%;
   }
   .starfish{
     bottom: 40%;
@@ -641,16 +646,16 @@
     text-align: center;
   }
   .pikachu{
-    bottom: 52%;
+    bottom: 53%;
   }
   .pikachu_left{
-    bottom: 52%;
+    bottom: 53%;
   }
   .bird{
-    bottom: 57%;
+    bottom: 58%;
   }
   .bird_left{
-    bottom: 57%;
+    bottom: 58%;
   }
 }
 @media(min-width: 1024px) and (max-width: 1280px){
@@ -712,7 +717,7 @@
   }
   .tape{
     bottom: 23%;
-    left: 10%;
+    left: 8%;
   }
   .sun{
     bottom: 25%;
@@ -721,70 +726,71 @@
     top: -20%;
   }
   .zealicon{
-    bottom: 20%;
+    bottom: 18%;
   }
   .winnie{
-    bottom: 23%
+    bottom: 25%
   }
   .chipmunk{
     bottom: 14%;
   }
   .pikachu{
-    bottom:43%;
+    bottom:40%;
   }
   .pikachu_left{
-    bottom: 43%;
+    bottom: 40%;
   }
   .bird{
-    bottom: 48%;
+    bottom: 45%;
   }
   .bird_left{
-    bottom: 48%;
+    bottom: 45%;
   }
   .starfish{
-    bottom: 20%;
+    bottom: 24%;
   }
 }
 @media(min-width: 1366px) and (max-width: 1440px){
   .shore{
-    width: 110%;
+    max-width: 108%;
   }
   .castle{
     bottom: 28%;
   }
   .shinchan{
     bottom: 20%;
+    left: 11%;
   }
   .tape{
-    bottom: 25%;
-    left: 8%;
+    bottom: 28%;
+    left: 5%;
   }
   .sun{
-    bottom: 20%;
+    bottom: 28%;
   }
   .navbg{
     top: -20%;
   }
   .zealicon{
-    bottom: 15%;
+    bottom: 18%;
   }
   .winnie{
-    bottom: 23%
+    bottom: 25%
   }
   .chipmunk{
     bottom: 14%;
   }
   .pikachu{
-    bottom:35%;
+    bottom:40%;
   }
   .pikachu_left{
-    bottom: 35%;
+    bottom: 40%;
   }
   .bird{
-    bottom: 40%;
+    bottom: 45%;
   }
   .bird_left{
-    bottom: 40%;
+    bottom: 45%;
   }
   .starfish{
     bottom: 20%;
@@ -804,6 +810,9 @@
   .cloud2{
     top: 130px;
   }
+  #canvas{
+    margin-top: -11%
+  }
 }
 @media(min-width: 1440px) and (max-width: 1600px){
   .shore{
@@ -813,44 +822,44 @@
     margin-top: -14%;
   }
   .castle{
-    bottom: 25%;
+    bottom: 23%;
   }
   .shinchan{
-    bottom: 15%;
+    bottom: 13%;
   }
   .tape{
     bottom: 20%;
-    left: 10%;
+    left: 8%;
   }
   .sun{
     bottom: 20%;
   }
   .navbg{
-    top: -20%;
+    top: -18%;
   }
   .zealicon{
     bottom: 12%;
   }
   .winnie{
-    bottom: 20%
+    bottom: 18%
   }
   .chipmunk{
-    bottom: 9%;
+    bottom: 8%;
   }
   .pikachu{
-    bottom:33%;
+    bottom:30%;
   }
   .pikachu_left{
-    bottom: 33%;
+    bottom: 30%;
   }
   .bird{
-    bottom: 39%;
+    bottom: 35%;
   }
   .bird_left{
-    bottom: 39%;
+    bottom: 35%;
   }
   .starfish{
-    bottom: 20%;
+    bottom: 18%;
   }
   .cloud1{
     top: 130px;
