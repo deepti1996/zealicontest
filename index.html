@@ -22,7 +22,7 @@
           <!-- layer1 -->
           <div class="nav">
             <div class="top">
-              <a href="#" class="abbtn-top">About</a>
+              <a href="" data-toggle="modal" data-target="#myModal" style="padding:0; border:0;">About</a>
               <a href="#" target="_blank">Events</a>
               <a href="#" class="schbtn">Schedule</a>
               <a href="#" class="spbtn">Sponsors</a>
@@ -425,6 +425,20 @@
       <!-- schedule -->
     </section>
 
+    <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/bootstrap.min.js"></script>
     <!-- audio script -->
     <script type="text/javascript">
@@ -594,6 +608,18 @@
    </script>
    <!-- water script -->
 
-   
+   <script type="text/javascript">
+       function testAnim(x) {
+           $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
+           console.log('class', 'modal-dialog  ' + x + '  animated');
+       };
+       $('#myModal').on('show.bs.modal', function(e) {
+           testAnim('flipInY');
+       })
+       $('#myModal').on('hide.bs.modal', function(e) {
+           testAnim('flipOutY');
+       })
+
+   </script>1
   </body>
 </html>
