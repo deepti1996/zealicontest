@@ -25,15 +25,23 @@
 .top {
     text-align: center;
 }
-.top a {
+.top a {font-family: 'Permanent Marker', cursive;
+  font-variant: small-caps;
     text-decoration: none;
     display: inline-block;
     margin-top: 15px;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: #fff;
+    transition: transform 0.5s;
 }
+
+.top a:hover {
+  font-weight: 700;
+  transform: rotate(-18deg);
+}
+
 #home{
   background: linear-gradient(rgba(82,201,251,1),rgba(122,213,252,0.1),rgba(255,0,0,0));
 }
