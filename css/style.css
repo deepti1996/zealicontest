@@ -545,6 +545,80 @@
     text-align: center;
   }
 }
+@media(min-width: 500px) and (max-width: 600px){
+	.shore{
+		margin-left: -3%;
+	}
+  #canvas{
+    margin-top: 6%;
+  }
+  .water{
+    margin-left: -2.75%;
+  }
+  .zealicon{
+    bottom: 45%;
+    width: 42%;
+  }
+  .castle{
+    bottom: 44%;
+  }
+  .jungle{
+    left: -1%;
+  }
+  .sun{
+    bottom: 50%;
+  }
+  .cloud1{
+    top: 30px;
+    width: 90px;
+  }
+  .cloud4{
+    top: 30px;
+    height: 50px;
+  }
+  .cloud3{
+    top: 30px;
+    width: 75px;
+  }
+  .cloud5{
+    top: 30px;
+    width: 50px;
+  }
+  .cloud2{
+    top: 30px;
+    height: 60px;
+  }
+  .birds{
+    top: 65%;
+  }
+  .shinchan{
+    bottom: 40%;
+  }
+  .tape{
+    bottom: 40%;
+    left: 10%;
+  }
+  .castle{
+    bottom: 35%;
+  }
+  .winnie{
+    bottom: 30%;
+  }
+  .chipmunk{
+    bottom: 25%;
+  }
+  .starfish{
+    bottom: 30%;
+  }
+  .navbg{
+    top: -15%;
+  }
+  .top a{
+    font-size: 14px;
+    margin-left: -8px;
+    text-align: center;
+  }
+}
 @media(min-width: 1200px){
   .shore{
     width: 110%;
