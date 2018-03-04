@@ -5,6 +5,35 @@
   overflow-y: hidden;
   text-justify : inner-word;
 }
+.navbg{
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+    /*height: 20%;*/
+    z-index: 100;
+}
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+}
+.top a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.2em;
+    color: #fff;
+}
 #home{
   background: linear-gradient(rgba(82,201,251,1),rgba(122,213,252,0.1),rgba(255,0,0,0));
 }
@@ -15,14 +44,16 @@
 }
 #canvas{
   margin-top: -10%;
-  max-width: 110%;
+  max-width: 120%;
 }
 .water{
+  margin-left: -1.15%;
   max-width: 110%;
 }
+/*island*/
 .zealicon {
 	position: absolute;
-	bottom: 18%;
+	bottom: 20%;
 	width: 50%;
 	height: auto;
 	transition:bottom 2s, transform 2s;
@@ -34,6 +65,8 @@
 	transform:  translateX(-50%) scale(1.2);
 	bottom: 50%;
 }
+/*island*/
+
 .sun {
 	width: 8%;
 	position: absolute;
@@ -47,6 +80,7 @@
 	transform: scale(1.2);
 	bottom: 50%;
 }
+
 .cloud1 {
 	top: 60px;
 	width: 150px;
@@ -90,6 +124,174 @@
   	animation-timing-function: ease-in-out;
   	animation-direction: normal;
 }
+.leftplant {
+	height: 50vh;
+	top: 5%;
+	left: -7%;
+	position: absolute;
+	z-index: 1000;
+	transition: transform 2s;
+}
+.tweety {
+	top: 6%;
+	left: 2%;
+	z-index: 1002;
+	width: 5%;
+	position: absolute;
+}
+.jungle{
+	width: 17%;
+	z-index: 1001;
+	position: absolute;
+	top: 9%;
+	left: -2%;
+	transition: transform 2s, top 2s;
+}
+.junglehover {
+	top: 7%;
+	transform: scale(1.2);
+}
+.baloon {
+  	position: absolute;
+  	z-index: 1001;
+  	width: 8%;
+    animation-name: baloon-anim;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    transition: transform 2s;
+}
+.winnie {
+	position: absolute;
+	bottom: 25%;
+	width: 22%;
+	right: 8%;
+	z-index: 1001;
+	transition: transform 2s, right 2s;
+}
+.winniehover {
+	right: 4.5%;
+	transition: scale(1.2);
+}
+.chipmunk{
+	width: 12%;
+	bottom: 15%;
+	z-index: 1001;
+	position: absolute;
+	right : 5%;
+	transition: transform 2s, right 2s;
+}
+.chipmunkhover {
+	right: 0%;
+}
+.shinchan {
+	width: 12%;
+	z-index: 1001;
+	position: absolute;
+	bottom: 20%;
+	left: 15%;
+	transition: transform 2s, left 2s;
+}
+.shinchanhover {
+	left: 9%;
+	transform: scale(1.2);
+}
+.starfish {
+	position: absolute;
+	bottom: 25%;
+	right: 35%;
+	width: 4.5%;
+	z-index: 996;
+	transition: transform 2s;
+}
+.castle {
+	position: absolute;
+	bottom: 30%;
+	width: 12%;
+	z-index: 1000;
+	transition: transform 2s, left 2s;
+	left: 26vw;
+}
+.castlehover {
+	left: 23vw;
+	transform: scale(1.2);
+}
+.tape {
+	padding: 1%;
+	width: 6%;
+	z-index: 1000;
+	position: absolute;
+	bottom: 30%;
+	left: 4%;
+	transition: transform 2s;
+}
+.bird {
+	bottom: 45%;
+	width: 5%;
+	position: absolute;
+  	animation-name: bird-anim;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	animation-direction: normal;
+  	z-index: 999;
+	transition: transform 2s;
+}
+.bird_left {
+	bottom: 45%;
+	width: 6%;
+	position: absolute;
+  	animation-name: bird-anim_left;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	animation-direction: normal;
+  	z-index: 999;
+	transition: transform 2s;
+}
+.pikachu {
+	position: absolute;
+	bottom: 40%;
+	height: 10%;
+  	animation-name: pikachu;
+  	animation-duration: 12s;
+  	z-index: 999;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	animation-direction: normal;
+	transition: transform 2s;
+}
+.pikachu_left {
+	position: absolute;
+	bottom: 40%;
+	height: 10%;
+  	animation-name: pikachu_left;
+  	animation-duration: 12s;
+  	z-index: 999;
+  	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+  	transition: transform 2s;
+}
+.boat {
+	bottom: 80%;
+	right: 50%;
+	width: 5%;
+  position: absolute;
+	z-index: 1001;
+    animation-name: boat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    transition: transform 2s, bottom 2s;
+}
+.boathover {
+	bottom: 50%;
+	transform: scale(1.2);
+}
+
 /*keyframes*/
 @keyframes cloud-move1 {
 	from {
@@ -163,6 +365,76 @@
 		top: 35%;
 	}
 }
+@keyframes bird-anim {
+	0% {
+		left: -21vw;
+	}
+	50% {
+		left: -21vw;
+	}
+	100% {
+		left: 100vw;
+	}
+}
+@keyframes bird-anim_left {
+	0% {
+		right: -56vw;
+	}
+	50% {
+		right: 101vw;
+	}
+	100% {
+		right: 101vw;
+	}
+}
+@keyframes pikachu {
+	0% {
+		left: -15vw;
+	}
+	50% {
+		left: -15vw;
+	}
+	100% {
+		left: 111vw;
+	}
+}
+@keyframes pikachu_left {
+	0% {
+		right: -50vw;
+	}
+	50% {
+		right: 111vw;
+	}
+	100% {
+		right: 111vw;
+	}
+}
+@keyframes boat {
+	0% {
+		bottom: 42%;
+	}
+	50% {
+		bottom: 43%;
+	}
+	100% {
+		bottom: 42%;
+	}
+}
+@keyframes baloon-anim{
+  0% {
+    top: 12%;
+    right: 56%;
+  }
+  50% {
+    top: 19%;
+    right: 54%;
+  }
+  100% {
+    top: 12%;
+    right: 56%;
+  }
+}
+
 /*media queries*/
 @media(max-width: 768px){
 	.shore{
@@ -171,12 +443,21 @@
   #canvas{
     margin-top: 4%;
   }
+  .water{
+    margin-left: -2.75%;
+  }
   .zealicon{
-    bottom: 45%;
+    bottom: 48%;
     width: 42%;
   }
+  .castle{
+    bottom: 25%;
+  }
+  .jungle{
+    left: -1%;
+  }
   .sun{
-    bottom: 50%;
+    bottom: 52%;
   }
   .cloud1{
     width: 90px;
@@ -195,33 +476,6 @@
   }
   .birds{
     top: 65%;
-  }
-}
-@media(max-width: 500px){
-  #canvas{
-    margin-top: 5%;
-  }
-  .zealicon{
-    bottom: 45%;
-    width: 42%;
-  }
-  .sun{
-    bottom: 50%;
-  }
-  .cloud1{
-    width: 90px;
-  }
-  .cloud4{
-    height: 50px;
-  }
-  .cloud3{
-    width: 75px;
-  }
-  .cloud5{
-    width: 50px;
-  }
-  .cloud2{
-    height: 60px;
   }
 }
 @media(min-width: 1200px){
