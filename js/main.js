@@ -10,7 +10,8 @@ $(document).ready(function(){
 		$('body').show();
 		$(window).on('load',function() {
     		setTimeout(function(){
-    			$(".vidloader").fadeOut();
+				$(".vidloader").fadeOut();
+				$("#my_audio")[0].play();
 			},3000);
 		});
         $(".view, .island, .grass1, .grass2").mouseover(function(){
