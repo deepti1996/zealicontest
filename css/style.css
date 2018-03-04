@@ -25,15 +25,23 @@
 .top {
     text-align: center;
 }
-.top a {
+.top a {font-family: 'Permanent Marker', cursive;
+  font-variant: small-caps;
     text-decoration: none;
     display: inline-block;
     margin-top: 15px;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 1.2em;
+    font-size: 1.6em;
     color: #fff;
+    transition: transform 0.5s;
 }
+
+.top a:hover {
+  font-weight: 700;
+  transform: rotate(-18deg);
+}
+
 #home{
   background: linear-gradient(rgba(82,201,251,1),rgba(122,213,252,0.1),rgba(255,0,0,0));
 }
@@ -649,7 +657,7 @@
     width: 110%;
   }
   .castle{
-    bottom: 25%;
+    bottom: 30%;
   }
   .shinchan{
     bottom: 20%;
@@ -662,31 +670,31 @@
     bottom: 25%;
   }
   .navbg{
-    top: -18%;
+    top: -20%;
   }
   .zealicon{
-    bottom: 15%;
+    bottom: 18%;
   }
   .winnie{
-    bottom: 23%
+    bottom: 25%
   }
   .chipmunk{
-    bottom: 12%;
+    bottom: 14%;
   }
   .pikachu{
-    bottom:35%;
+    bottom:404%;
   }
   .pikachu_left{
-    bottom: 35%;
+    bottom: 40%;
   }
   .bird{
-    bottom: 40%;
+    bottom: 45%;
   }
   .bird_left{
-    bottom: 40%;
+    bottom: 45%;
   }
   .starfish{
-    bottom: 20%;
+    bottom: 24%;
   }
 }
 @media(min-width: 1366px) and (max-width: 1440px){
