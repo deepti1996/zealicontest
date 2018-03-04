@@ -82,33 +82,33 @@
 }
 
 .cloud1 {
-	top: 60px;
+	top: 100px;
 	width: 150px;
 	position: absolute;
 	animation: cloud-move1 60s linear infinite;
 	animation-direction: normal;
 }
 .cloud2 {
-	top: 30px;
+	top: 70px;
 	position: absolute;
 	animation: cloud-move5 46s linear infinite;
 	animation-direction: normal;
 }
 .cloud3 {
-	top: 17px;
+	top: 80px;
 	width: 90px;
 	position: absolute;
 	animation: cloud-move3 70s linear infinite;
 	animation-direction: normal;
 }
 .cloud4 {
-	top: 28px;
+	top: 78px;
 	position: absolute;
 	animation: cloud-move4 56s linear infinite;
 	animation-direction: normal;
 }
 .cloud5 {
-	top: 13px;
+	top: 130px;
 	width: 70px;
 	position: absolute;
 	animation: cloud-move2 50s linear infinite;
@@ -476,6 +476,73 @@
   }
   .birds{
     top: 65%;
+  }
+}
+@media(min-width: 768px) and (max-width: 992px){
+	.shore{
+		margin-left: -3%;
+	}
+  #canvas{
+    margin-top: 0.15%;
+  }
+  .water{
+    margin-left: -1.75%;
+  }
+  .zealicon{
+    bottom: 29.5%;
+    width: 42%;
+  }
+  .castle{
+    bottom: 25%;
+  }
+  .jungle{
+    left: -1%;
+  }
+  .sun{
+    bottom: 35%;
+  }
+  .cloud1{
+    width: 90px;
+  }
+  .cloud4{
+    height: 50px;
+  }
+  .cloud3{
+    width: 75px;
+  }
+  .cloud5{
+    width: 50px;
+  }
+  .cloud2{
+    height: 60px;
+  }
+  .birds{
+    top: 65%;
+  }
+  .shinchan{
+    bottom: 30%;
+  }
+  .tape{
+    left: 10%;
+  }
+  .castle{
+    bottom: 35%;
+  }
+  .winnie{
+    bottom: 30%;
+  }
+  .chipmunk{
+    bottom: 25%;
+  }
+  .starfish{
+    bottom: 30%;
+  }
+  .navbg{
+    top: -15%;
+  }
+  .top a{
+    margin-left: -7px;
+    text-align: center;
   }
 }
 @media(min-width: 1200px){
