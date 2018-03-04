@@ -597,13 +597,286 @@
     bottom: 57%;
   }
 }
-@media(min-width: 1200px){
+@media(min-width: 1024px) and (max-width: 1280px){
   .shore{
     width: 110%;
   }
+  .castle{
+    bottom: 20%;
+  }
+  .shinchan{
+    bottom: 15%;
+  }
+  .tape{
+    bottom: 20%;
+    left: 10%;
+  }
+  .sun{
+    bottom: 20%;
+  }
+  .navbg{
+    top: -15%;
+  }
+  .zealicon{
+    bottom: 15%;
+  }
+  .winnie{
+    bottom: 15%
+  }
+  .chipmunk{
+    bottom: 10%;
+  }
+  .pikachu{
+    bottom: 28%;
+  }
+  .pikachu_left{
+    bottom: 28%;
+  }
+  .bird{
+    bottom: 33%;
+  }
+  .bird_left{
+    bottom: 33%;
+  }
+  .starfish{
+    bottom: 15%;
+  }
 }
-@media(min-width: 1300px){
+@media(min-width: 1280px) and (max-width: 1366px){
   .shore{
     width: 110%;
+  }
+  .castle{
+    bottom: 25%;
+  }
+  .shinchan{
+    bottom: 15%;
+  }
+  .tape{
+    bottom: 20%;
+    left: 10%;
+  }
+  .sun{
+    bottom: 20%;
+  }
+  .navbg{
+    top: -15%;
+  }
+  .zealicon{
+    bottom: 15%;
+  }
+  .winnie{
+    bottom: 23%
+  }
+  .chipmunk{
+    bottom: 12%;
+  }
+  .pikachu{
+    bottom:35%;
+  }
+  .pikachu_left{
+    bottom: 35%;
+  }
+  .bird{
+    bottom: 40%;
+  }
+  .bird_left{
+    bottom: 40%;
+  }
+  .starfish{
+    bottom: 20%;
+  }
+}
+@media(min-width: 1366px) and (max-width: 1440px){
+  .shore{
+    width: 110%;
+  }
+  .castle{
+    bottom: 25%;
+  }
+  .shinchan{
+    bottom: 15%;
+  }
+  .tape{
+    bottom: 20%;
+    left: 10%;
+  }
+  .sun{
+    bottom: 20%;
+  }
+  .navbg{
+    top: -15%;
+  }
+  .zealicon{
+    bottom: 15%;
+  }
+  .winnie{
+    bottom: 23%
+  }
+  .chipmunk{
+    bottom: 14%;
+  }
+  .pikachu{
+    bottom:35%;
+  }
+  .pikachu_left{
+    bottom: 35%;
+  }
+  .bird{
+    bottom: 40%;
+  }
+  .bird_left{
+    bottom: 40%;
+  }
+  .starfish{
+    bottom: 20%;
+  }
+  .cloud1{
+    top: 130px;
+  }
+  .cloud4{
+    top: 90px;
+  }
+  .cloud3{
+    top: 130px;
+  }
+  .cloud5{
+    top: 90px;
+  }
+  .cloud2{
+    top: 130px;
+  }
+}
+@media(min-width: 1440px) and (max-width: 1600px){
+  .shore{
+    width: 110%;
+  }
+  #canvas{
+    margin-top: -14%;
+  }
+  .castle{
+    bottom: 25%;
+  }
+  .shinchan{
+    bottom: 15%;
+  }
+  .tape{
+    bottom: 20%;
+    left: 10%;
+  }
+  .sun{
+    bottom: 20%;
+  }
+  .navbg{
+    top: -20%;
+  }
+  .zealicon{
+    bottom: 12%;
+  }
+  .winnie{
+    bottom: 20%
+  }
+  .chipmunk{
+    bottom: 9%;
+  }
+  .pikachu{
+    bottom:33%;
+  }
+  .pikachu_left{
+    bottom: 33%;
+  }
+  .bird{
+    bottom: 39%;
+  }
+  .bird_left{
+    bottom: 39%;
+  }
+  .starfish{
+    bottom: 20%;
+  }
+  .cloud1{
+    top: 130px;
+  }
+  .cloud4{
+    top: 90px;
+  }
+  .cloud3{
+    top: 130px;
+  }
+  .cloud5{
+    top: 90px;
+  }
+  .cloud2{
+    top: 130px;
+  }
+  .top a{
+    font-size: 28px;
+  }
+}
+
+@media(min-width: 1600px) and (max-width: 1920px){
+  .shore{
+    width: 110%;
+  }
+  #canvas{
+    margin-top: -16%;
+  }
+  .castle{
+    bottom: 25%;
+  }
+  .shinchan{
+    bottom: 15%;
+  }
+  .tape{
+    bottom: 20%;
+    left: 10%;
+  }
+  .sun{
+    bottom: 20%;
+  }
+  .navbg{
+    top: -20%;
+  }
+  .zealicon{
+    bottom: 10%;
+  }
+  .winnie{
+    bottom: 20%
+  }
+  .chipmunk{
+    bottom: 5%;
+  }
+  .pikachu{
+    bottom:33%;
+  }
+  .pikachu_left{
+    bottom: 33%;
+  }
+  .bird{
+    bottom: 39%;
+  }
+  .bird_left{
+    bottom: 39%;
+  }
+  .starfish{
+    bottom: 15%;
+  }
+  .cloud1{
+    top: 130px;
+  }
+  .cloud4{
+    top: 90px;
+  }
+  .cloud3{
+    top: 130px;
+  }
+  .cloud5{
+    top: 90px;
+  }
+  .cloud2{
+    top: 130px;
+  }
+  .top a{
+    font-size: 36px;
   }
 }
