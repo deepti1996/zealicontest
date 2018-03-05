@@ -21,7 +21,7 @@
     cursor: pointer;
     transition: 0.3s;
     font-size: 15px;
-}   
+}
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -30,7 +30,7 @@
 
 /* Create an active/current "tab button" class */
 .catactive {
-    color: #fff !important; 
+    color: #fff !important;
 }
 
 /* Style the tab content */
@@ -57,7 +57,7 @@
   }
 }
 
-.card {
+.card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
