@@ -3,7 +3,7 @@
 /* Style the tab */
 .tab {
     float: left;
-    width: 25%;
+    width: 20%;
     height: 300px;
     border-right: 1px solid white;
 }
@@ -13,7 +13,7 @@
     display: block;
     background-color: inherit;
     color: #828080;
-    padding: 4px;
+    padding: 6px;
     width: 100%;
     border: none;
     outline: none;
@@ -35,10 +35,10 @@
 
 /* Style the tab content */
 .tabcontent {
-    float: left;
-    padding: 0px 12px;
+    /*float: left;*/
+    padding: 0px 5px;
     /*border: 1px solid #ccc;*/
-    width: 75%;
+    width: 80%;
     border-left: none;
     height: 300px;
 }
@@ -79,7 +79,9 @@
 #contact .title {
   color: grey;
 }
-
+#contact .card1 img{
+  height: 200px;
+}
 #contact .button {
   border: none;
   outline: 0;
