@@ -13,7 +13,7 @@
     display: block;
     background-color: inherit;
     color: #828080;
-    padding: 8px;
+    padding: 4px;
     width: 100%;
     border: none;
     outline: none;
@@ -63,6 +63,7 @@
 
 .contcontainer {
   padding: 0 16px;
+  font-size: 15px;
 }
 
 .contacthead {
