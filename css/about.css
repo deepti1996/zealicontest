@@ -28,8 +28,6 @@
   transform: translate(-50%,-50%);
 }
 
-
-
 .close {
   position: absolute;
   z-index: 10001;
@@ -53,16 +51,20 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.about-overlay {
-    position: relative;
-    width: 54vw !important;
-    height: 70vh !important;
-    margin-top: 25% !important;
-    left: 30% !important;
-    background: rgba(0,0,0,0.8);
-    color: white;
-    transform: translate(-50%,-50%) !important;
+.contact-overlay {
+  padding: 4% 8%;
+  display: block;
+  position: relative;
+  width: 80vw;
+  height: 68vh;
+  margin-top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,0.8);
+  color: white;
+  text-align: center;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .about-overlay p {
